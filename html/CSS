@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet CB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 4em;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .sidebar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #333;
+            padding-top: 50px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        .video-section {
+            margin-top: 20px;
+        }
+
+        .video-section h2 {
+            margin-bottom: 10px;
+        }
+
+        .video {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .video iframe {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Projet CB</h1>
+        <p>Bienvenue sur notre site !</p>
+    </div>
+
+    <div class="sidebar">
+        <a href="#ivan-chauvet">Ivan Chauvet</a>
+        <a href="#lea-salame">Lea Salamé</a>
+    </div>
+
+    <div class="content">
+        <section id="ivan-chauvet">
+            <h2>Ivan Chauvet</h2>
+            <div class="video-section">
+                <h3>Mathématiques</h3>
+                <div class="video">
+                    <a href="https://youtu.be/9MEs8uGyLjk?si=ZuIELIAJjobH5Ajp" target="_blank">
+                        <img src="https://img.youtube.com/vi/9MEs8uGyLjk/0.jpg" alt="Video 1">
+                        <p>Introduction aux mathématiques</p>
+                    </a>
+                    <a href="https://youtu.be/qHF5kiDFkW8?si=tykGymgRxpoRdg1q" target="_blank">
+                        <img src="https://img.youtube.com/vi/qHF5kiDFkW8/0.jpg" alt="Video 2">
+                        <p>Analyse mathématique</p>
+                    </a>
+                </div>
+                <h3>Géométrie</h3>
+                <div class="video">
+                    <a href="https://youtu.be/EoT48VtnUJ4?si=IzUVUlW20nxPky9v" target="_blank">
+                        <img src="https://img.youtube.com/vi/EoT48VtnUJ4/0.jpg" alt="Video 3">
+                        <p>Introduction à la géométrie</p>
+                    </a>
+                    <a href="https://youtu.be/aostYZK5jkE?si=cMV24ox_eDUWJP4h" target="_blank">
+                        <img src="https://img.youtube.com/vi/aostYZK5jkE/0.jpg" alt="Video 4">
+                        <p>Propriétés géométriques</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="lea-salame">
+            <h2>Lea Salamé</h2>
+            <div class="video-section">
+                <h3>Échec</h3>
+                <div class="video">
+                    <a href="https://youtu.be/CdrqVYDdvFU?si=EoA_RRrjt6IaQ3be" target="_blank">
+                        <img src="https://img.youtube.com/vi/CdrqVYDdvFU/0.jpg" alt="Video 1">
+                        <p>Introduction aux échecs</p>
+                    </a>
+                    <a href="https://youtu.be/5-wL65cxGsw?si=akd2RgOLGjsoDaMv" target="_blank">
+                        <img src="https://img.youtube.com/vi/5-wL65cxGsw/0.jpg" alt="Video 2">
+                        <p>Stratégies avancées</p>
+                    </a>
+                </div>
+                <h3>Kinésithérapie</h3>
+                <div class="video">
+                    <a href="https://youtu.be/K06dVT_ktrE?si=56EoPyTGm0Hzhg5J" target="_blank">
+                        <img src="https://img.youtube.com/vi/K06dVT_ktrE/0.jpg" alt="Video 3">
+                        <p>Techniques de kinésithérapie</p>
+                    </a>
+                    <a href="https://youtu.be/evzHbcc0V5c?si=SvMUNk-fjdQgq6tM" target="_blank">
+                        <img src="https://img.youtube.com/vi/evzHbcc0V5c/0.jpg" alt="Video 4">
+                        <p>Rééducation et récupération</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
